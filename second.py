@@ -1,6 +1,3 @@
-# Этот файл создан Кондратенко Алексеем Александровичем. Авторские права защищены.
-# Попытка использования без разрешения автора будет преследоваться по закону!
-
 from PyQt5.QtWidgets import (QTextEdit, QLabel, QPushButton, QLineEdit, QGridLayout, QDialog)
 from PyQt5.QtGui import QFont
 from db import SQLiteDB

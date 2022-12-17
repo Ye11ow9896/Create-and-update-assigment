@@ -1,6 +1,3 @@
-# Этот файл создан Кондратенко Алексеем Александровичем. Авторские права защищены.
-# Попытка использования без разрешения автора будет преследоваться по закону! 
-
 from PyQt5.QtWidgets import (QWidget, QMessageBox, QPushButton, QGridLayout, QScrollArea, QMainWindow, QCommandLinkButton, QInputDialog, QApplication, QCheckBox)
 from PyQt5.QtCore import (QRect)
 from second import Second
