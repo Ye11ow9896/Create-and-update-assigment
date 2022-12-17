@@ -1,0 +1,55 @@
+/*QWidget {
+/*    color: #eff0f1;
+/*    background-color: #646769;
+/*    background-clip: border;
+/*    border-image: none;
+/*    border: 0px transparent black;
+/*    outline: 0;
+/*}
+/*QPushButton {
+/*    padding:5px;
+/*    color: #fff;
+/*    font-size: 14px;
+/*    border-radius: 5px;
+/*    border: 1px solid #3873d9;
+/*    background-color: green; /* background-color: qlineargradient( x1: 0, y1: 0, x2: 0, y2: 1,
+/*                                        stop: 0 , stop: 1 #356ccc);*/
+/*}
+*/
+QWidget {
+    color: rgb(251, 251, 252);
+    background-color: rgb(36, 36, 36)
+}
+
+QPushButton {
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #005eff;
+    background-color: rgb(66, 170, 211);
+}
+
+QCommandLinkButton {
+    color:black;
+    background-color: rgb(66, 170, 211);
+    border: 2px solid #005eff;
+}
+QLabel {
+    color: rgb(255, 255, 255);
+}
+
+QTextEdit {
+    color: rgb(2, 2, 2);
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #005eff;
+    background-color: rgb(66, 170, 211);
+}
+
+QLineEdit {
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    border-radius: 3px;
+    border: 2px solid #005eff;
+    background-color: rgb(186, 235, 255);
+}

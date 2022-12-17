@@ -78,6 +78,9 @@ class First(QMainWindow):
             filter_text = str(text)
 
         if filter_text is not None:
+            # delete objects in linkslayout
+            for i in range(self.linkslayout.count()):
+                self.linkslayout.itemAt(i).widget().deleteLater()
             # if data filter
             filtred_data = None
             if filter == self.filter_btn_names[0][0]: 
@@ -95,10 +98,9 @@ class First(QMainWindow):
                 msg.setText('Введенных данных нет в базе')
                 msg.setStandardButtons(QMessageBox.Ok)
                 msg.exec_()
-                # delete objects in linkslayout
-                for i in range(self.linkslayout.count()):
-                    self.linkslayout.itemAt(i).widget().deleteLater()
                 self._create_links_buttons(self.table_db)
+            else:
+                self._create_links_buttons(filtred_data)
         
     def _link_clicked(self):
         db = self.sender().table_db_i

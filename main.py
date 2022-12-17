@@ -20,6 +20,7 @@ if __name__ == '__main__':
     file.open(QtCore.QFile.ReadOnly | QtCore.QFile.Text)
     stream = QtCore.QTextStream(file)
     app.setStyleSheet(stream.readAll())
+    ### end ###
     mainwin = Main()
     sys.exit(app.exec_())
 
